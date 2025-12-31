@@ -3,3 +3,5 @@ uvicorn
 requests
 pandas
 websockets
+protobuf
+grpcio-tools
