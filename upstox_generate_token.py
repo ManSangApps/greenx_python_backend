@@ -4,7 +4,7 @@ API_KEY = "609a3a41-dc34-4ea5-be8b-d8a9cf18cc74"
 API_SECRET = "b0619lwgum"
 REDIRECT_URI = "http://localhost:8000/callback"
 
-AUTH_CODE = "rGzO7J"
+AUTH_CODE = "GCl37j"
 
 url = "https://api.upstox.com/v2/login/authorization/token"
 
