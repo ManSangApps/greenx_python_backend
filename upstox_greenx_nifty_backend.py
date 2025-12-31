@@ -749,8 +749,14 @@ async def get_nifty_state():
     return {
         "symbol": "NIFTY",
         "price": latest_price,
+        "activeTrade": serialize_trade(active_trade),
+        "tradeHistory": [
+            {"side": t.side, "pnl": t.pnl, "status": t.status}
+            for t in trade_log[-20:]
+        ],
         "timestamp": datetime.now().isoformat(),
     }
+
 
 
 # ======================================================
