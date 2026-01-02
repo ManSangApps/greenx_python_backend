@@ -37,7 +37,7 @@ import MarketDataFeedV3_pb2 as pb
 # UPSTOX CONFIG
 # ======================================================
 
-ACCESS_TOKEN = "eyJ0eXAiOiJKV1QiLCJrZXlfaWQiOiJza192MS4wIiwiYWxnIjoiSFMyNTYifQ.eyJzdWIiOiJHQzQyNjIiLCJqdGkiOiI2OTU0OWQ1NTQ2NmZiMjEyODM2NjM0OTAiLCJpc011bHRpQ2xpZW50IjpmYWxzZSwiaXNQbHVzUGxhbiI6ZmFsc2UsImlhdCI6MTc2NzE1Mjk4MSwiaXNzIjoidWRhcGktZ2F0ZXdheS1zZXJ2aWNlIiwiZXhwIjoxNzY3MjE4NDAwfQ.HfXGHmeOQdyX7ow4TF3q8fXMJwr6Pn5EwuZKQuie7UY"
+ACCESS_TOKEN = "eyJ0eXAiOiJKV1QiLCJrZXlfaWQiOiJza192MS4wIiwiYWxnIjoiSFMyNTYifQ.eyJzdWIiOiJHQzQyNjIiLCJqdGkiOiI2OTU3NTMzNDZhNjY4YjU1YTdmMjE1MDQiLCJpc011bHRpQ2xpZW50IjpmYWxzZSwiaXNQbHVzUGxhbiI6ZmFsc2UsImlhdCI6MTc2NzMzMDYxMiwiaXNzIjoidWRhcGktZ2F0ZXdheS1zZXJ2aWNlIiwiZXhwIjoxNzY3MzkxMjAwfQ.1wAALHMs7h9KxAntWGQyx9Q9eT_zrL_TYS7dOe-KA5g"
 
 UPSTOX_WS_AUTH_URL = "https://api.upstox.com/v3/feed/market-data-feed/authorize"
 
